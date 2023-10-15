@@ -5,7 +5,7 @@ import plus from "../assets/plus-circle.svg";
 const Support = () => {
 	return (
 		<div className="lg:w-[75%] w-[90%] mx-auto flex lg:flex-row flex-col justify-between">
-			<section className=" flex flex-col lg:m-0 mb-[30px] gap-1">
+			<section className=" flex flex-col lg:m-0 mb-[30px] gap-1 ">
 				<p className="text-[#175CD3] text-[12px] font-bold">Support</p>
 				<h1 className="text-[#1D2939] font-bold text-[1.5rem]">FAQS</h1>
 				<p className="text-[#667085] text-[12px]">
@@ -18,13 +18,13 @@ const Support = () => {
 				</p>
 			</section>
 
-			<section className="">
-				<div className="flex w-[500px] items-start justify-between border border-[#EAECF0] rounded-md p-[32px]  bg-[#F9FAFB]">
+			<section className="lg:w-2/3">
+				<div className="flex items-start justify-between border border-[#EAECF0] rounded-md p-[32px]  bg-[#F9FAFB] ">
 					<div>
 						<p className="font-bold text-[13px] mb-2 w-[400px] text-[#1D2939]">
 							How many participants can join a ClearLink video conference?
 						</p>
-						<p className="text-[#667085] w-[420px] text-[10px]">
+						<p className="text-[#667085] text-[10px]">
 							How many participants can join a ClearLink video conference?
 							ClearLink offers flexible meeting options. Depending on your
 							subscription plan, you can host meetings with varying numbers of
