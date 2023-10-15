@@ -29,7 +29,7 @@ const Hero = () => {
 		<div className="flex w-[75%] mx-auto flex-col gap-[50px] hero">
 			<Header />
 
-			<section className="flex justify-between mt-[20px]">
+			<section className="flex lg:flex-row flex-col justify-between mt-[20px]">
 				<div className="flex flex-col gap-[40px]">
 					<h1 className="text-[#1D2939] font-bold text-[2.5rem]">
 						Uniting the world, <br />{" "}
@@ -79,7 +79,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<div className="flex flex-col gap-[30px] bg-[#EFF8FF] border border-[#B2DDFF] shadow-md h-fit rounded-lg p-4">
+				<div className="flex flex-col lg:m-0 mt-10 gap-[30px] bg-[#EFF8FF] border border-[#B2DDFF] shadow-md h-fit rounded-lg p-4">
 					<div className="grid gap-4 grid-cols-3 ">
 						<div className="bg-orange-500 rounded-md">
 							<img src={img5} alt="" className="relative top-[8.5px]" />

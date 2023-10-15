@@ -31,10 +31,10 @@ const Header = () => {
 			</div>
 
 			<div className="flex gap-[4px]">
-				<button className="lg:text-[0.7rem] text-[0.6rem] lg:px-[10px] lg:py-[6px] bg-white rounded-full font-bold border border-[#98A2B3]">
+				<button className="lg:text-[0.7rem] text-[0.6rem] lg:px-[10px] px-[0.3rem] py-[0.3rem] lg:py-[6px] bg-white rounded-full font-bold border border-[#98A2B3]">
 					Talk to sales
 				</button>
-				<button className="text-[12px] px-[10px] py-[6px] bg-[#175CD3] box-shadow-[ 0px 1px 2px 0px rgba(16, 24, 40, 0.05)] text-white rounded-full font-bold border border-[#98A2B3]">
+				<button className="lg:text-[0.7rem] text-[0.6rem] lg:px-[10px] px-[0.3rem] py-[0.3rem] lg:py-[6px] bg-[#175CD3] box-shadow-[ 0px 1px 2px 0px rgba(16, 24, 40, 0.05)] text-white rounded-full font-bold border border-[#98A2B3]">
 					Sign up for free
 				</button>
 			</div>
