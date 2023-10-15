@@ -82,7 +82,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<section className="bg-[#F9FAFB] w-[100vw]">
+			<section className="bg-[#F9FAFB] w-[100%]">
 				<div className="flex w-[80%] mx-auto items-center mt-[30px] justify-between p-[20px]">
 					<span className="text-[10px] text-[#475467]">
 						&copy; 2023 ClearLink. All rights reserved.

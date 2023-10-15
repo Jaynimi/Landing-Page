@@ -21,7 +21,7 @@ const Support = () => {
 			<section className="lg:w-2/3">
 				<div className="flex items-start justify-between border border-[#EAECF0] rounded-md p-[32px]  bg-[#F9FAFB] ">
 					<div>
-						<p className="font-bold text-[13px] mb-2 w-[400px] text-[#1D2939]">
+						<p className="font-bold text-[13px] mb-2 text-[#1D2939]">
 							How many participants can join a ClearLink video conference?
 						</p>
 						<p className="text-[#667085] text-[10px]">
